@@ -1,5 +1,5 @@
 name: "Increase Swap"
-version: "1.0.1"
+version: "1.0.2"
 slug: increase_swap_addon
 description: "This add-on increases the swap space on your system."
 arch:
