@@ -23,7 +23,7 @@ print_date "Starting Swap add-on..."
 
 remove_old_swap_file
 
-zramctl -a zstd -s "${SWAP_SIZE}"M -t 4 "${SWAP_DEVICE}"
+/usr/sbin/zramctl -a zstd -s "${SWAP_SIZE}"M -t 4 "${SWAP_DEVICE}"
 mkswap "${SWAP_DEVICE}"
 swapon "${SWAP_DEVICE}" -p 1
 
